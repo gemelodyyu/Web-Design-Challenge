@@ -2,31 +2,32 @@
 a.navbar-brand{
     margin-left: 10px;
     padding: 10px;
-    background-color: rgb(74, 170, 165);
+    background-color: rgb(78, 170, 165);
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
 
-/*footer styling*/
-.page-footer{
-    background-color: rgb(70, 80, 72);
-    margin-top: 50px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
 }
 
-.footer-copyright{
-    color:white;
-    border-top: 5px solid rgb(74, 170, 165)
+.nav-item.dropdown.show {
+    background-color: #ddd;
+}
+
+.dropdown-menu {
+    margin: 0;
 }
 
 /* header styling*/
 h3{
-    color:rgb(74, 170, 165);
+    color:rgb(78, 170, 165);
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 15px;
 }
+
 
 /* image styling*/
 .img-thumbnail{
@@ -34,10 +35,12 @@ h3{
     border: none;
 }
 
-/* fontstyling for text*/
+
+/* text paragraph styling*/
 p{
    font-family: Arial, Helvetica, sans-serif;
    font-size: large;
+   color: #797979;
    padding:10px;
 }
 
@@ -53,22 +56,9 @@ body{
 
 /* image border styling*/
 .pic{
-    border: 3px solid rgb(74, 170, 165);
-}
-/* navbar styling*/
-.navbar{
-    padding-top:0px;
-    padding-bottom: 0px;
-    padding-right:40px;
+    border: 3px solid rgb(78, 170, 165);
 }
 
-.nav-item.dropdown.show {
-    background-color: #ddd;
-}
-
-.dropdown-menu {
-    margin: 0;
-}
 
 /* content styling*/
 .content {
@@ -104,7 +94,7 @@ tr>td:nth-child(10) {
 /* small screen adjustments*/
 @media(max-width:767px){
     .navbar.bg-light{
-        background-color:rgb(74, 170, 165)!important;    
+        background-color:rgb(78, 170, 165)!important;    
     }
 
     .navbar-collapse{
