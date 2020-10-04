@@ -1,4 +1,4 @@
-# Latitude Analysis Dashboard with Attitude
+# Latitude Analysis Dashboard 
 
 
 For this project we created a visualization dashboard website using visualizations we've created in the past. Specifically, we'll be plotting data from OpenWeatherMap website.
