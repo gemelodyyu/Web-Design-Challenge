@@ -33,7 +33,11 @@ The website consists of 7 pages total, including:
 * A "Data" page that:
 
   * Displays a responsive table containing the data used in the visualizations.
+  
 
+## Link 
+
+https://gemelodyyu.github.io/Web-Design-Challenge/
 
 
 
